@@ -1,1 +1,1 @@
-# Weakly_Supervised_Learning
+# Weakly Supervised Learning
