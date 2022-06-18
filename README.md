@@ -17,6 +17,11 @@ Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)�
 
 Self-distillation : Teacher와 Student는 Same architecture를 가진다.
 
+* Global crop : 한 이미지내에서 50% 이상의 영역을 Crop
+* Local crop : 한 이미지내에서 50% 이하의 영역을 Crop
+
+아래에서 Student Network는 Global crop, Local crop을 모두 사용하고, Teacher Network는 Global crop만을 사용한다.
+
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/Self_distillation.jpg" width="50%">
 
 # Weakly Supervised Learning
