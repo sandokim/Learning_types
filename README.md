@@ -17,7 +17,7 @@ Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)�
 
 Self-distillation : Teacher와 Student는 Same architecture를 가진다.
 
-
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/Self_distillation.jpg" width="50%">
 
 # Weakly Supervised Learning
 
