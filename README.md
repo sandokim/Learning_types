@@ -13,6 +13,8 @@ Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)�
 
 [SimCLR v1 & v2 리뷰](https://rauleun.github.io/SimCLR)
 
+# [DINO: Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)
+
 # Weakly Supervised Learning
 
 # Unsupervised Learning
