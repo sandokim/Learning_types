@@ -22,6 +22,10 @@ Self-distillation : Teacher와 Student는 Same architecture를 가진다.
 
 아래에서 Student Network는 Global crop, Local crop을 모두 사용하고, Teacher Network는 Global crop만을 사용한다.
 
+아래 그림의 목적은 Student Network와 Teacher Network가 same representation을 예측하기를 기대한다. => 이미지 x에서 다르게 transform한 x1과 x2가 같기를 바란다. 
+
+x1, x2는 class x에서 augmented된 것임.
+
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/Self_distillation.jpg" width="50%">
 
 # Weakly Supervised Learning
