@@ -15,6 +15,10 @@ Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)�
 
 # [DINO: Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)
 
+Self-distillation : Teacher와 Student는 Same architecture를 가진다.
+
+
+
 # Weakly Supervised Learning
 
 # Unsupervised Learning
