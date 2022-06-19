@@ -1,8 +1,8 @@
-# Supervised Learning
+# Supervised Learning 지도학습
 
 x라는 이미지에 대한 y라는 레이블이 존재하는 상태에서 x가 정답 y에 가깝게 학습하는 방법
 
-# Semi-Supervised Learning
+# Semi-Supervised Learning 준지도학습
 
 목적은 supervised learning과 같은데 label이 없는 x데이터들이 존재한다.
 
@@ -49,6 +49,6 @@ x1, x2는 class x에서 augmented된 것임.
 
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/Self_distillation.jpg" width="50%">
 
-# Weakly Supervised Learning
+# Weakly Supervised Learning 약지도 학습
 
-# Unsupervised Learning
+# Unsupervised Learning 비지도 학습
