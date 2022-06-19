@@ -70,4 +70,4 @@ Transfer Learning은 Large Dataset에서 Training하여 image representation을 
 
 Transfer Learning은 가끔 Fine tuning으로 불리기도 한다.
 
-<img src="https://github.com/sandokim/Learning_types/blob/main/images/Linear Evalutation & Fine Tuning & Transfer Learning.jpg" width="50%">
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/Linear Evalutation & Fine Tuning & Transfer Learning.jpg" width="70%">
