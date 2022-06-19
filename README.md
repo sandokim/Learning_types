@@ -64,7 +64,7 @@ x1, x2는 class x에서 augmented된 것임.
 
 # Representation Learning -> 이미지의 representation을 학습한다.
 
-## Representation Leanring examples --> Linear Evalutation & Fine Tuning & Transfer Learning
+## Representation learning을 한 뒤 Network를 Freeze 또는 Learnable로 정하여 classficiation을 수행할 수 있다. --> Linear Evalutation & Fine Tuning & Transfer Learning
 
 Linear Evalutation은 dataset에 대해 학습한 모델(Pretrained model)을 Freeze하고 linear classifier만 on the top에 올려서 주어진 테스크를 classification한다.
 
