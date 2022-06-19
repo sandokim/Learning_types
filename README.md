@@ -41,6 +41,8 @@ Contrastive learning을 활용하여 주어진 입력 이미지들에 대한 정
 
 [SimCLR v1 & v2 리뷰](https://rauleun.github.io/SimCLR)
 
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/SimCLRv2.jpg" width="50%">
+
 # [DINO: Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)
 
 Self-distillation : Teacher와 Student는 Same architecture를 가진다.
