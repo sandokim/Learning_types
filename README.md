@@ -6,6 +6,10 @@ x라는 이미지에 대한 y라는 레이블이 존재하는 상태에서 x가 
 
 목적은 supervised learning과 같은데 label이 없는 x데이터들이 존재한다.
 
+데이터 분포가 Uniformly distributed된 경우 오히려 Decision boundary를 결정하는데 방해가 될 수도 있다. (마지막 Classify는 Linear classifier(Soft max)를 거치게 된다.)
+
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/Semi Supervised Learning.jpg" width="50%">
+
 # Self-Supervised Learning, BYOL(Bootstrap Your Own Latent), PCL(Prototypical Contrastive Learning)
 
 Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)을 통해 Anchor image에서 transformed된 이미지로 positive pair를 생성하고 나머지 다른 이미지들은 negative pair로 사용하여 loss function을 구성하고 학습시킨다. 
