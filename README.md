@@ -23,8 +23,11 @@ Pretext를 잘 정의해서 주어진 입력 이미지들에 대한 정보를 �
 Contrastive learning을 활용하여 주어진 입력 이미지들에 대한 정보를 추출하는 방식
 
 * NPID (2018 CVPR)
-* MoCo (2020 CVPR)
 * SimCLR (2020 ICML)
+* MoCo (2020 CVPR) 
+1. MoCo 이전 SSL(Self-Supervised Learning중 Contrastive Learning)은 Memory Bank에 관측치 전체에 대한 embedding 정보를 계속 저장해야하므로 메모리 이슈 존재,
+2. Constrastive Learning에서 랜덤 샘플링으로 negative example을 구성하므로 데이터 샘플별로 학습에 기여하는 정도가 다름
+-> Memory Queue를 사용 -> First In First Out (FIFO)
 
 # Network구조 또는 Clustering 개념을 도입하여 주어진 입력 이미지들에 대한 정보를 추출하는 방식 (2020~)
 
