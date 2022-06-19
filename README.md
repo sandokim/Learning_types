@@ -61,3 +61,13 @@ x1, x2는 class x에서 augmented된 것임.
 # Weakly Supervised Learning 약지도 학습
 
 # Unsupervised Learning 비지도 학습
+
+# Linear Evalutation & Fine Tuning & Transfer Learning
+
+Linear Evalutation은 dataset에 대해 학습한 모델(Pretrained model)을 Freeze하고 linear classifier만 on the top에 올려서 주어진 테스크를 classification한다.
+
+Transfer Learning은 Large Dataset에서 Training하여 image representation을 배운 네트워크를 small dataset 또는 different dataset에 대해 Training하는 학습방법이다.
+
+Transfer Learning은 가끔 Fine tuning으로 불리기도 한다.
+
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/Linear Evalutation & Fine Tuning & Transfer Learning.jpg" width="50%">
