@@ -8,7 +8,7 @@ x라는 이미지에 대한 y라는 레이블이 존재하는 상태에서 x가 
 
 데이터 분포가 Uniformly distributed된 경우 오히려 Decision boundary를 결정하는데 방해가 될 수도 있다. (마지막 Classify는 Linear classifier(Soft max)를 거치게 된다.)
 
-<img src="https://github.com/sandokim/Learning_types/blob/main/images/Semi Supervised Learning.jpg" width="50%">
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/Semi Supervised Learning.jpg" width="70%">
 
 # Self-Supervised Learning, BYOL(Bootstrap Your Own Latent), PCL(Prototypical Contrastive Learning)
 
