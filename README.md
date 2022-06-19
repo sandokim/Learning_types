@@ -12,7 +12,11 @@ x라는 이미지에 대한 y라는 레이블이 존재하는 상태에서 x가 
 
 # Self-Supervised Learning, BYOL(Bootstrap Your Own Latent), PCL(Prototypical Contrastive Learning)
 
-Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)을 통해 Anchor image에서 transformed된 이미지로 positive pair를 생성하고 나머지 다른 이미지들은 negative pair로 사용하여 loss function을 구성하고 학습시킨다. 
+Keywords: Self Supervision, self supervised learning, do not need labels
+
+Self-Supervised Learning은 Label이 아에없다. Data Augementation(Crop, color jitter, shift, rotation)을 통해 Anchor image에서 transformed된 이미지로 positive pair를 생성하고 나머지 다른 이미지들은 negative pair로 사용하여 loss function을 구성하고 학습시킨다.
+
+--> From an augmented view of an image, we train the online network to predict the target network representation of the same image under a different augmented view. At the same time, we update the target network with a slow-moving average of the online network (Quoted from BYOL Abstract)
 
 # Petext task (2014~2018)
 
