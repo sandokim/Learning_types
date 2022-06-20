@@ -72,6 +72,10 @@ q simply tries to predict the other representation. You do that for both ways. Y
 
 -> Label이 부족한 상태에서 학습하는 방법
 
+SimCLR는 hyperparamters중 하나인 batch size를 줄이면 accuracy가 줄어든다. 왜냐면 SimCLR는 negative samples를 사용하며 negative samples는 mini batch안에서 other samples를 사용하기 때문이다. 
+
+--> Less samples in the mini batch that means you have a less representative distribution of your entire dataset as negative samples.
+
 [SimCLR v1 & v2 리뷰](https://rauleun.github.io/SimCLR)
 
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/SimCLRv2.jpg" width="50%">
