@@ -36,6 +36,11 @@ Contrastive learning을 활용하여 주어진 입력 이미지들에 대한 정
 # Network구조 또는 Clustering 개념을 도입하여 주어진 입력 이미지들에 대한 정보를 추출하는 방식 (2020~)
 
 * BYOL (2020 NIPS)
+
+v, v'은 input image로부터 slightly differently augmented된 이미지, f(=ResNet50)를 통과하여 Representation을 얻음, projection을 하여 dimensionality를 줄인다.
+
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL.PNG" width="80%">
+
 * PCL (2020 ArXiv)
 
 # SimCLR Contrastive Learning Framework 
