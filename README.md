@@ -55,7 +55,7 @@ BYOL Loss
 
 q위의 bar는 normalization을 뜻한다.
 
-q simply tries to predict the other representation.
+q simply tries to predict the other representation. You do that for both ways. You get 2 Loss components each time. It's a symmetric loss
 
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL_Loss.PNG" width="80%">
 
