@@ -41,6 +41,14 @@ v, v'은 input image로부터 slightly differently augmented된 이미지, f(=Re
 
 ResNet50으로부터 나온 2048-d는 projection을 거치며 4092-d로 pump up되고 다시 256-d로 축소된다.
 
+Represenation을 뽑는 Encoder는 simliar하고 하나는 다른 하나의 exponential moving average (ema)이다.
+
+그리고 마지막에 하나로부터 다른 하나를 predict한다.
+
+이를 통해 representation이 augmentation으로부터 independent하게 만든다. 
+
+-> Representation can only include things that are not destroyed by the augmentations. And if you construct the augmentations smartly that means you only retain the semantic information.
+
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL.PNG" width="80%">
 
 * PCL (2020 ArXiv)
