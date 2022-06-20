@@ -35,7 +35,11 @@ Contrastive learning을 활용하여 주어진 입력 이미지들에 대한 정
 
 # Network구조 또는 Clustering 개념을 도입하여 주어진 입력 이미지들에 대한 정보를 추출하는 방식 (2020~)
 
-* BYOL (2020 NIPS)
+* BYOL (2020 NIPS) --> You don't need the negative samples anymore in Self-Supervised Leanring which is cool and it actually doesn't collapse.
+
+What is Collapse? Representation이 close될때 그냥 0이 되버리면 collapse가 발생하고 어떤 이미지가 들어와도 it always map it to the same thing.
+
+--> You will always be close in representation space and you always win.. That doesn't learn a really good representation.
 
 v, v'은 input image로부터 slightly differently augmented된 이미지, f(=ResNet50)를 통과하여 Representation을 얻음, projection을 하여 dimensionality를 줄인다.
 
@@ -48,6 +52,8 @@ Represenation을 뽑는 Encoder는 simliar하고 하나는 다른 하나의 expo
 이를 통해 representation이 augmentation으로부터 independent하게 만든다. 
 
 -> Representation can only include things that are not destroyed by the augmentations. And if you construct the augmentations smartly that means you only retain the semantic information.
+
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL Intuition.PNG" width="80%">
 
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL.PNG" width="80%">
 
