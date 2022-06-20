@@ -39,6 +39,8 @@ Contrastive learning을 활용하여 주어진 입력 이미지들에 대한 정
 
 v, v'은 input image로부터 slightly differently augmented된 이미지, f(=ResNet50)를 통과하여 Representation을 얻음, projection을 하여 dimensionality를 줄인다.
 
+ResNet50으로부터 나온 2048-d는 projection을 거치며 4092-d로 pump up되고 다시 256-d로 축소된다.
+
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL.PNG" width="80%">
 
 * PCL (2020 ArXiv)
