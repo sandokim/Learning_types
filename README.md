@@ -51,6 +51,14 @@ Represenation을 뽑는 Encoder는 simliar하고 하나는 다른 하나의 expo
 
 <img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL.PNG" width="80%">
 
+BYOL Loss
+
+q위의 bar는 normalization을 뜻한다.
+
+q simply tries to predict the other representation.
+
+<img src="https://github.com/sandokim/Learning_types/blob/main/images/BYOL_Loss.PNG" width="80%">
+
 * PCL (2020 ArXiv)
 
 # SimCLR Contrastive Learning Framework 
